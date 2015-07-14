@@ -1,0 +1,60 @@
+# How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Being able to quickly pass two versions of a document through tools such as 'FC'
+(Windows) or 'diff' (Linux, Unix, Git Bash) allows the user to be able to quickly
+scan for changes and issues without having to read and compare each line manually.
+
+In the examples given it is even possible for someone without knowledge of the 
+languages to be able to do a pass for typos without needing to learn what was 
+actually happening in the code. This could be useful in QA or if you weren't
+the original coder of the segment.
+
+
+# How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Bugs may get introduced a few versions in the past but not come to light until
+much later, making it difficult to track back where it is unless you can see
+the history of a file
+
+
+# What do you think are the pros and cons of manually choosing when to create a commit, 
+like you do in Git, vs having versions automatically saved, like Google docs does?
+
+Pros:
+- Can make sure that a file will compile 
+- Commits can be of a manageable size each time
+- Allows for adding a description
+
+Cons:
+- Prone to user error
+- Could end up with too many commits
+
+
+# Why do you think some version control systems, like Git, allow saving multiple files in one commit, 
+while others, like Google Docs, treat each file separately?
+
+Some are designed for developers who will often need to update multiple files in
+each commit rather then google docs where you are only working on one file at a 
+time and are seperated.
+
+
+# How can you use the commands git log and git diff to view the history of files?
+
+Git log shows a list of all the commits, you can find the commits that you want
+to compare, then use 'git diff' to show what was changed between the two commits
+
+
+# How might using version control make you more confident to make changes that could break something?
+
+Having the commits and creating branches gives you a safety net to fall back on
+if something breaks. It is a lot easier then going through and commenting out
+vast amounts of code to see if things are borked or not, simply checking out an
+old commit to undo the changes is a lot easier. No need to keep track manually
+of what changes have been made in each session.
+
+
+# Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to be able to write script and work on projects for work while keeping
+clean and good version control. I also want to keep repositories for personal
+and non-coding related projects.
