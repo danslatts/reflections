@@ -31,3 +31,13 @@ aren't shown in logs (because they are on a different branch)
 GIt compares the changes made at the point of each branch to the commit that was 
 parent to both branches. It finds what was deleted and added and magically merges
 the two into one.
+
+# What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Pros:
+- Fast
+- Fairly smart
+
+Cons:
+- Requires knowledge of the code
+- Can mess up
