@@ -20,3 +20,14 @@ amount for 1 logical change
 Branches would be useful when adding new features if they drastically change from
 the current workings so that changes could still be made on the master in a timely
 manner and all development on the main app doesn't have to completely pause.
+
+# How do the diagrams help you visualize the branch structure?
+
+Diagramming branches is useful to show the flow of commits and why some commits 
+aren't shown in logs (because they are on a different branch)
+
+# What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+GIt compares the changes made at the point of each branch to the commit that was 
+parent to both branches. It finds what was deleted and added and magically merges
+the two into one.
