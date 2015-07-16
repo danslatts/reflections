@@ -9,3 +9,9 @@ to collaborate with other people on a project.
 Because other users may be pushing to the GitHub site I may not have branched
 the changes that I was making and do not want them to be merged and kept up to 
 date all of the time.
+
+# Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Fork - a clone between two repositories on GitHub
+Clone - a copy of an existing repository
+branches - a tree like structure of commits seperated down the trunk
