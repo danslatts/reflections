@@ -22,3 +22,12 @@ branches - a tree like structure of commits seperated down the trunk
 This allows you to continue to code and merge offline with the latest known
 version of the master at the time. It also means that there will be less conflicts
 when connecting back to the remote.
+
+
+# How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+The first idea that comes to mind would be Google Docs. This doesn't really work
+with code though. Especially with no markup. It is in real time though.
+
+Next idea would be shared Dropbox. This would cause a lot of conflicts in versions
+that would be hard to fix. merging different versions would be close to impossible.
