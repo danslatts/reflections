@@ -15,3 +15,10 @@ date all of the time.
 Fork - a clone between two repositories on GitHub
 Clone - a copy of an existing repository
 branches - a tree like structure of commits seperated down the trunk
+
+
+# What is the benefit of having a copy of the last known state of the remote stored locally?
+
+This allows you to continue to code and merge offline with the latest known
+version of the master at the time. It also means that there will be less conflicts
+when connecting back to the remote.
